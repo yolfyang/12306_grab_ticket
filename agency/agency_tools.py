@@ -1,3 +1,6 @@
+"""
+代理服务器处理模块
+"""
 # encoding=utf8
 import os
 import random
@@ -15,7 +18,7 @@ class Proxy:
 
     def get_proxy(self):
         """
-        获取未加工代理列表
+        从网上获取未测试代理列表
         :return: 
         """
         user_agent = 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
@@ -39,7 +42,7 @@ class Proxy:
 
     def filter_proxy(self):
         """
-        将不可用IP剔除
+        测试代理服务器，将不可用IP剔除
         :return: 
         """
         socket.setdefaulttimeout(1)
@@ -106,4 +109,6 @@ class Proxy:
 
 if __name__ == "__main__":
     a = Proxy()
-    print(a.get_filter_proxy())
+    # print(a.get_filter_proxy())
+    a.get_proxy()
+    a.filter_proxy()
