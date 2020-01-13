@@ -1,7 +1,8 @@
-# encoding=utf8
+# -*- coding=utf-8 -*-
 import datetime
 import operator
 import os
+from os.path import dirname
 import requests
 from config import urlConf
 import threading
@@ -12,6 +13,10 @@ cdn_list = []
 
 
 class CDNProxy(threading.Thread):
+    """
+    对CDN进行处理的模块
+    """
+
     def __init__(self, cdns):
         super().__init__()
         self.cdns = cdns
@@ -36,20 +41,22 @@ class CDNProxy(threading.Thread):
 
 def open_cdn_file(cdn_file):
     cdn = []
-    path = os.path.join(os.path.dirname(__file__), f'../{cdn_file}')
+    path_now = dirname(__file__)
+    path = os.path.join(dirname(path_now), cdn_file)
+    # path = os.path.join(os.path.dirname(__file__), f'../{cdn_file}')    #此句windows不能正常工作
     # noinspection PyBroadException
     try:
         with open(path, "r", encoding="utf-8") as f:
             for i in f.readlines():
                 if i and "kyfw.12306.cn:443" not in i:
                     cdn.append(i.replace("\n", ""))
-            return cdn
+        return cdn
     except Exception:
         with open(path, "r") as f:
             for i in f.readlines():
                 if i and "kyfw.12306.cn:443" not in i:
                     cdn.append(i.replace("\n", ""))
-            return cdn
+        return cdn
 
 
 def sort_cdn():
@@ -80,14 +87,13 @@ def filter_cdn():
         cdn_thread.append(t)
     for cdn_t in cdn_thread:
         cdn_t.start()
-
     for cdn_j in cdn_thread:
         cdn_j.join()
 
     print(f"当前有效cdn个数为: {len(cdn_list)}")
     if cdn_list:
         ips = sort_cdn()
-        path = os.path.join(os.path.dirname(__file__), f'../filter_cdn_list')
+        path = os.path.join(dirname(dirname(__file__)), 'filter_cdn_list')
         f = open(path, "a+")
         f.seek(0)
         f.truncate()
