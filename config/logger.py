@@ -18,7 +18,7 @@ def set_suffix(s):
 
 
 def get_today_date_str():
-	return time.strftime("%Y-%m-%d", time.localtime(configCommon.getNowTimestamp()))
+	return time.strftime("%Y-%m-%d", time.localtime(configCommon.get_now_time_stamp()))
 
 
 def set_date_str(s):
@@ -33,7 +33,7 @@ def is_another_day(s):
 
 def get_log_file():
 	global dateStr, suffix
-	rtn = os.path.join(configCommon.getLogDir(), dateStr)
+	rtn = os.path.join(configCommon.get_log_dir(), dateStr)
 	if suffix:
 		rtn += "_" + suffix
 	return rtn + ".log"

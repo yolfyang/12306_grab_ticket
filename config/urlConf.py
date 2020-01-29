@@ -40,7 +40,6 @@ urls = {
         "is_logger": True,
         "is_cdn": True,
         "is_json": True,
-
     },
     "left_ticket_init": {   # 登录接口
         "req_url": "/otn/leftTicket/init",
@@ -54,7 +53,6 @@ urls = {
         "is_logger": False,
         "is_cdn": True,
         "is_json": False,
-
     },
     "getCodeImg": {  # 登录验证码
         "req_url": "/passport/captcha/captcha-image?login_site=E&module=login&rand=sjrand&{0}",

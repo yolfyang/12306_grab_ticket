@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76be86bc-c899-461f-a7d9-6df69dbcc689" name="Default Changelist" comment="发送邮件配置文件首次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/12306-grab-ticket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yolf_yang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12306.image.model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TickerConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/TestAll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agency/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdn_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/configCommon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_install_centos.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter_cdn_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init/select_ticket_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/AutoSubmitOrderRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/CheckFace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/CheckOrderInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/CheckRandCodeAnsyn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/CheckUser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/ConfirmHB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/ConfirmSingleForQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/ConfirmSingleForQueueAsys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetPassCodeNewOrderAndLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetPassengerDTOs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetQueueCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetQueueCountAsync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetRandCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetRepeatSubmitToken.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/GetSuccessRate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/LiftTicketInit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/LoginAysnSuggest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/LoginConf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/PassengerInitApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/Query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/QueryOrderWaitTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/SubmitOrderRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.v2.0.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/PassengerUserException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/UserPasswordException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/balanceException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/ticketConfigException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/ticketIsExitsException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myException/ticketNumOutException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myUrllib/MySocketUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myUrllib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myUrllib/httpUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements-docker37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/station_name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/REIL_DEVICEID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/wx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/zfb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/登录.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/程序主界面.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_contextvars.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/concrt140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/msvcp140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/msvcp140_2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python37.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vccorlib140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcomp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings32-0.15.1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings64-0.15.1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/localVerifyCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/login_and_get_cookies_with_selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/mlearn_for_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/pretreatment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agency/proxy_list" beforeDir="false" afterPath="$PROJECT_DIR$/agency/proxy_list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/getCookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/getCookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urlConf.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urlConf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ccfdbac8-9043-4d94-8c11-070245dae49b" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\yolf_\PycharmProjects\12306抢票\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vv65w6FCPAeOeAoZk3eBlJwlKQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/verify" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yolf_\PycharmProjects\12306_grab_ticket\verify" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yolf_\PycharmProjects\12306_grab_ticket\verify" />
+      <recent name="C:\Users\yolf_\PycharmProjects" />
+      <recent name="C:\Users\yolf_\PycharmProjects\12306抢票" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.AutoSynchroTime">
+    <configuration name="AutoSynchroTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\yolf_\PycharmProjects\12306抢票\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/AutoSynchroTime.py" />
+      <option name="PARAMETERS" value="t" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yolf_\PycharmProjects\12306抢票\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="t" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cdn_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/agency" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/agency/cdn_utils.py" />
+      <option name="PARAMETERS" value="t" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="localVerifyCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yolf_\PycharmProjects\12306抢票\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verify/localVerifyCode.py" />
+      <option name="PARAMETERS" value="t" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mlearn_for_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verify/mlearn_for_image.py" />
+      <option name="PARAMETERS" value="code_pic.jpg" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="12306-grab-ticket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="r" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.localVerifyCode" />
+      <item itemvalue="Python.mlearn_for_image" />
+      <item itemvalue="Python.cdn_utils" />
+      <item itemvalue="Python.AutoSynchroTime" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AutoSynchroTime" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.cdn_utils" />
+        <item itemvalue="Python.localVerifyCode" />
+        <item itemvalue="Python.mlearn_for_image" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76be86bc-c899-461f-a7d9-6df69dbcc689" name="Default Changelist" comment="" />
+      <created>1578030554186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578030554186</updated>
+      <workItem from="1578030599387" duration="3215000" />
+      <workItem from="1578035212953" duration="234000" />
+      <workItem from="1578035723638" duration="6612000" />
+      <workItem from="1578102420851" duration="2899000" />
+      <workItem from="1578113107479" duration="776000" />
+      <workItem from="1578121069845" duration="162000" />
+      <workItem from="1578121280463" duration="267000" />
+      <workItem from="1578121665730" duration="10983000" />
+      <workItem from="1578206854651" duration="7589000" />
+      <workItem from="1578220441966" duration="440000" />
+      <workItem from="1578221020570" duration="66423000" />
+      <workItem from="1578812840396" duration="1217000" />
+      <workItem from="1578827091440" duration="81770000" />
+      <workItem from="1579395536705" duration="79131000" />
+    </task>
+    <task id="LOCAL-00001" summary="12306抢票主程序首次上传">
+      <created>1578220567486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578220567486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="发送邮件文件首次提交">
+      <created>1578227054086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578227054086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="通过微信发送购票通知文件首次提交">
+      <created>1578227457570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578227457570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="时间同步模块首次提交">
+      <created>1578229688613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578229688613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="url信息配置文件首次提交">
+      <created>1578229890540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578229890540</updated>
+    </task>
+    <task id="LOCAL-00006" summary="出票状态信息配置文件首次提交">
+      <created>1578230076634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578230076634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="日志文件模块首次提交">
+      <created>1578233056899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578233056899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="首次提交">
+      <created>1578233900831</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578233900831</updated>
+    </task>
+    <task id="LOCAL-00009" summary="通过push bear发送微信通知模块首次提交">
+      <created>1578234855603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578234855603</updated>
+    </task>
+    <task id="LOCAL-00010" summary="读取cookie模块首次提交">
+      <created>1578235291275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578235291275</updated>
+    </task>
+    <task id="LOCAL-00011" summary="寻找及过滤代理模块首次提交">
+      <created>1578359151573</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578359151573</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CDN选择和过滤模块首次提交">
+      <created>1578385110640</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578385110640</updated>
+    </task>
+    <task id="LOCAL-00013" summary="proxy列表文件首次提交">
+      <created>1578385175951</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578385175951</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改了一些注释，代理服务器处理模块基本完善">
+      <created>1578875711547</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578875711547</updated>
+    </task>
+    <task id="LOCAL-00015" summary="寻找可用的cdn模块，可正常工作，可正常工作的cdn的ip地址存入filter_cdn_list文件">
+      <created>1578899886390</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578899886390</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12306抢票主程序首次上传" />
+    <MESSAGE value="发送邮件文件首次提交" />
+    <MESSAGE value="通过微信发送购票通知文件首次提交" />
+    <MESSAGE value="时间同步模块首次提交" />
+    <MESSAGE value="url信息配置文件首次提交" />
+    <MESSAGE value="出票状态信息配置文件首次提交" />
+    <MESSAGE value="日志文件模块首次提交" />
+    <MESSAGE value="首次提交" />
+    <MESSAGE value="通过push bear发送微信通知模块首次提交" />
+    <MESSAGE value="读取cookie模块首次提交" />
+    <MESSAGE value="寻找及过滤代理模块首次提交" />
+    <MESSAGE value="CDN选择和过滤模块首次提交" />
+    <MESSAGE value="proxy列表文件首次提交" />
+    <MESSAGE value="修改了一些注释，代理服务器处理模块基本完善" />
+    <MESSAGE value="寻找可用的cdn模块，可正常工作，可正常工作的cdn的ip地址存入filter_cdn_list文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="寻找可用的cdn模块，可正常工作，可正常工作的cdn的ip地址存入filter_cdn_list文件" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="20" key="#Inspections" timestamp="1578228792146">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="20" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1578228792146" />
+    <state x="233" y="20" key="#Notifications" timestamp="1580189377280">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="20" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1580189377280" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580278132507">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1580278132507" />
+    <state x="381" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578836242633">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="381" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1578836242633" />
+    <state x="327" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579097997417">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="327" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1579097997399" />
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578210370006">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1578210370006" />
+    <state x="262" y="0" key="#pretreatment" timestamp="1580170737382">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="262" y="0" key="#pretreatment/0.0.1280.720@0.0.1280.720" timestamp="1580170737381" />
+    <state x="187" y="85" width="780" height="607" key="CommitChangelistDialog2" timestamp="1578899880137">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="187" y="85" width="780" height="607" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578899880137" />
+    <state width="1278" height="440" key="DebuggerActiveHint" timestamp="1579252969159">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1278" height="440" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1579252969159" />
+    <state x="420" y="115" key="FileChooserDialogImpl" timestamp="1579414769426">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="420" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1579414769426" />
+    <state x="465" y="274" width="375" height="187" key="Github.CreateGistDialog" timestamp="1578212372130">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="465" y="274" width="375" height="187" key="Github.CreateGistDialog/0.0.1280.720@0.0.1280.720" timestamp="1578212372130" />
+    <state x="510" y="252" width="269" height="217" key="Github.ShareDialog" timestamp="1578220338657">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="510" y="252" width="269" height="217" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1578220338657" />
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1580280465553">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580280465553" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1580280465553">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580280465553" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1580280465553">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580280465553" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1580280465553">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580280465553" />
+    <state width="1237" height="240" key="GridCell.Tab.1.bottom" timestamp="1580277850213">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580277850213" />
+    <state width="1237" height="240" key="GridCell.Tab.1.center" timestamp="1580277850213">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1580277850213" />
+    <state width="1237" height="240" key="GridCell.Tab.1.left" timestamp="1580277850213">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1580277850213" />
+    <state width="1237" height="240" key="GridCell.Tab.1.right" timestamp="1580277850213">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="240" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1580277850213" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1580216635678">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1580216635678" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1578899889253">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1578899889253" />
+    <state width="647" height="367" key="XDebugger.FullValuePopup" timestamp="1580275227974">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="647" height="367" key="XDebugger.FullValuePopup/0.0.1280.720@0.0.1280.720" timestamp="1580275227974" />
+    <state x="329" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1579395643864">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="329" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1579395643864" />
+    <state x="195" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578403823369">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="195" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.720@0.0.1280.720" timestamp="1578403823369" />
+    <state x="217" y="21" width="773" height="600" key="find.popup" timestamp="1580277340781">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="217" y="21" width="773" height="600" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1580277340781" />
+    <state x="416" y="152" key="git4idea.merge.GitPullDialog" timestamp="1578220693216">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="416" y="152" key="git4idea.merge.GitPullDialog/0.0.1280.720@0.0.1280.720" timestamp="1578220693216" />
+    <state x="383" y="3" key="refactoring.ChangeSignatureDialog" timestamp="1578447993434">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="383" y="3" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1578447993434" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/init/select_ticket_info.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/init/login.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/verify/mlearn_for_image.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$agency_tools.coverage" NAME="agency_tools Coverage Results" MODIFIED="1578835657959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agency" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$AutoSynchroTime.coverage" NAME="AutoSynchroTime Coverage Results" MODIFIED="1578229646368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$cdn_utils.coverage" NAME="cdn_utils Coverage Results" MODIFIED="1578899404885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agency" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$test.coverage" NAME="login_and_get_cookies_with_selenium Coverage Results" MODIFIED="1579254217225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$select_ticket_info.coverage" NAME="select_ticket_info Coverage Results" MODIFIED="1578555386470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/init" />
+    <SUITE FILE_PATH="coverage/12306$run.coverage" NAME="run Coverage Results" MODIFIED="1578129432557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$pretreatment.coverage" NAME="pretreatment Coverage Results" MODIFIED="1580189324701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verify" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$mlearn_for_image.coverage" NAME="mlearn_for_image Coverage Results" MODIFIED="1580217589935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verify" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$localVerifyCode.coverage" NAME="localVerifyCode Coverage Results" MODIFIED="1580274955154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verify" />
+    <SUITE FILE_PATH="coverage/12306_grab_ticket$run.coverage" NAME="run Coverage Results" MODIFIED="1580278446455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

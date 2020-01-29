@@ -5,6 +5,7 @@ import time
 import os
 import TickerConfig
 from config.urlConf import urls
+import time
 
 
 def get_drvices_id(session):
@@ -16,7 +17,6 @@ def get_drvices_id(session):
         from selenium import webdriver
         cookies = []
         # 解决放镜像里 DevToolsActivePort file doesn't exist的问题
-        options = webdriver.ChromeOptions()
         if os.name != 'nt' and TickerConfig.CHROME_CHROME_PATH:
             options = webdriver.ChromeOptions()
             options.binary_location = TickerConfig.CHROME_CHROME_PATH
@@ -24,20 +24,23 @@ def get_drvices_id(session):
                 '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36')
             options.add_argument("--no-sandbox")
             options.add_argument("--headless")
-        driver = webdriver.Chrome(executable_path=TickerConfig.CHROME_PATH, chrome_options=options)
+            driver = webdriver.Chrome(executable_path=TickerConfig.CHROME_PATH, chrome_options=options)
+        else:
+            driver = webdriver.Chrome()
         driver.get("https://www.12306.cn/index/index.html")
         time.sleep(10)
         for c in driver.get_cookies():
             cookie = dict()
-            print()
             if c.get("name") == "RAIL_DEVICEID" or c.get("name") == "RAIL_EXPIRATION":
                 cookie[c.get("name")] = c.get("value")
                 cookies.append(cookie)
         print(f"获取cookie: {cookies}")
         if cookies:
-            session.httpClint.set_cookies(cookies)
+            session.httpClient.set_cookies(cookies)
             session.cookies = cookies
         print("cookie获取完成")
+        # yolf 关闭浏览器
+        driver.quit()
     elif TickerConfig.COOKIE_TYPE is 2:
         request_device_id(session)
     elif TickerConfig.COOKIE_TYPE is 3:
@@ -48,7 +51,7 @@ def get_drvices_id(session):
             "RAIL_DEVICEID": TickerConfig.RAIL_DEVICEID,
             "RAIL_EXPIRATION": TickerConfig.RAIL_EXPIRATION,
         }]
-        session.httpClint.set_cookies(cookies)
+        session.httpClient.set_cookies(cookies)
         session.cookies = cookies
 
 
@@ -59,13 +62,13 @@ def request_device_id(session):
     """
     params = {"algID": request_alg_id(session), "timestamp": int(time.time() * 1000)}
     params = dict(params, **_get_hash_code_params())
-    response = session.httpClint.send(urls.get("getDevicesId"), params=params)
+    response = session.httpClient.send(urls.get("getDevicesId"), params=params)
     if response.find('callbackFunction') >= 0:
         result = response[18:-2]
         # noinspection PyBroadException
         try:
             result = json.loads(result)
-            session.httpClint.set_cookies([{
+            session.httpClient.set_cookies([{
                 'RAIL_EXPIRATION': result.get('exp'),
                 'RAIL_DEVICEID': result.get('dfp'),
             }])
@@ -78,7 +81,7 @@ def request_device_id(session):
 
 
 def request_alg_id(session):
-    response = session.httpClint.send(urls.get("GetJS"))
+    response = session.httpClient.send(urls.get("GetJS"))
     result = re.search(r'algID\\x3d(.*?)\\x26', response)
     try:
         return result.group(1)
@@ -194,3 +197,7 @@ def _encode_string(t_str):
     import base64
     result = base64.b64encode(hashlib.sha256(t_str.encode()).digest()).decode()
     return result.replace('+', '-').replace('/', '_').replace('=', '')
+
+
+if __name__ == "__main()__":
+    pass

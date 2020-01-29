@@ -19,13 +19,13 @@ if __name__ == '__main__':
     args = parser_arguments(sys.argv[1:])
     if args.operate == "r":
         from init import select_ticket_info
-        select_ticket_info.Select().main()
+        select = select_ticket_info.Select()
+        select.main()
     elif args.operate == "t":
-        from config.emailConf import sendEmail
-        from config.serverchanConf import sendServerChan
-        sendEmail(u"测试电子邮件通知是否成功")
-        sendServerChan("测试微信通知是否成功")
+        from config.emailConf import send_email
+        from config.serverchanConf import send_server_chan
+        send_email(u"测试通过电子邮件通知是否成功")
+        send_server_chan("测试通过微信通知是否成功")
     elif args.operate == "c":
-        from agency.cdn_utils import filterCdn
-        filterCdn()
-
+        from agency.cdn_utils import filter_cdn
+        filter_cdn()
